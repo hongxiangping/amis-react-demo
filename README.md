@@ -1,4 +1,4 @@
-# amis React 初始项目
+# amis React demo 示例项目
 
 ## 说明
 1. 参照 [官方源代码](https://github.com/baidu/amis)和[官网示例代码](https://github.com/aisuda/amis-react-starter) 实现。
