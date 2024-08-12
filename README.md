@@ -1,37 +1,43 @@
 # amis react demo 示例项目
 
 ## 一、说明
+
 1. 参照 [官方源代码](https://github.com/baidu/amis)和[官网示例代码](https://github.com/aisuda/amis-react-starter) 实现。
+
 2. 主要依赖如下：
 
-amis ^6.0.0（包含amis-ui、amis-core）
+- amis ^6.0.0（包含amis-ui、amis-core）
 
-axios ^1.4.0
+- axios ^1.4.0
 
-react ^18.2.0
+- react ^18.2.0
 
-react-dom ^18.2.0
+- react-dom ^18.2.0
 
-react-router-dom ^6.21.2（包含react-router）
+- react-router-dom ^6.21.2（包含react-router）
 
-vite ^5.0.11
+- vite ^5.0.11
 
-@vitejs/plugin-react ^4.2.1
+- @vitejs/plugin-react ^4.2.1
 
 ## 二、使用方法
-1. 安装依赖
+
+### 1.安装依赖
+
 ```
 pnpm install
 ```
+
 需要稍等片刻
 
-2. 启动
+### 2.启动
+
 ```
 pnpm dev
 ```
 访问：http://localhost:8888
 
-3. 页面开发
+### 3.页面开发
 
 （1）在/src/pages目录下新建文件夹
 
@@ -62,17 +68,21 @@ pnpm dev
 ```
 （4）启动状态下浏览器页面会自动刷新，可即时查看效果
 
-4. 打包
+### 4.打包
+
 ```
 pnpm build
 ```
 
 ## 三、Amis可视化编辑器的本地化部署
+   
    注：适用于5.6.2、6.0.0（最新版本）版本的源码，其他较低版本暂未验证。
 
-1. 源代码获取：https://github.com/aisuda/amis-editor-demo
+### 1.源代码获取：
+   
+   https://github.com/aisuda/amis-editor-demo
 
-2. 调试（开发）模式下运行
+### 2.调试（开发）模式下运行
 
 （1）安装依赖：npm install
 
@@ -86,19 +96,19 @@ pnpm build
 
 （5）浏览器访问：localhost:80 ，查看是否正产运行
 
-3. 编译及部署
+### 3.编译及部署
 
-（1）编译： npm run build
+（1）编译： `npm run build`
 
 （2）将demo-6.0.0文件夹下的打包内容部署到nginx
 
-4. 此外，还可以直接使用源代码中打包好的各个版本进行部署
+### 4.此外，还可以直接使用源代码中打包好的各个版本进行部署
 
 以下以demo-5.6.2为例：
 
 （1）找到源代码中的“demo-5.6.2”文件夹，全部拷贝出来。
 
-（2）修改index.html中的“https://unpkg.com/animate.css@4.1.1/animate.min.css” 为 “https://cdn.bootcdn.net/ajax/libs/animate.css/4.1.1/animate.min.css”
+（2）修改`index.html`中的“https://unpkg.com/animate.css@4.1.1/animate.min.css” 为 “https://cdn.bootcdn.net/ajax/libs/animate.css/4.1.1/animate.min.css”
 
 （3）使用开发工具（vs-code）将工程中所有的“https://aisuda.github.io/amis-editor-demo/demo-5.6.2/” 进行全局替换，替换为“/”
 
